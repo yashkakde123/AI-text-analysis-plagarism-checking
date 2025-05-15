@@ -24,8 +24,8 @@ tokenizer = GPT2Tokenizer.from_pretrained('gpt2')
 gpt2_model = GPT2LMHeadModel.from_pretrained('gpt2')
 
 # Load the plagiarism detection model and vectorizer
-plagiarism_model = pickle.load(open('C:/Users/ASUS/Desktop/PLAGY/plagarism/plagarism_checker.py/model.pkl', 'rb'))
-tfidf_vectorizer = pickle.load(open('C:/Users/ASUS/Desktop/PLAGY/plagarism/plagarism_checker.py/tfidf_vectorizer.pkl', 'rb'))
+plagiarism_model = pickle.load(open('C:/Users/ASUS/Desktop/PLAGY/with_llm.py/model.pkl', 'rb'))
+tfidf_vectorizer = pickle.load(open('C:/Users/ASUS/Desktop/PLAGY/with_llm.py/tfidf_vectorizer.pkl', 'rb'))
 
 def preprocess_text(text):
     tokens = nltk.word_tokenize(text.lower())
