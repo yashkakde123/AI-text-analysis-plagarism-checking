@@ -8,5 +8,5 @@ matplotlib==3.8.2
 plotly==5.18.0
 scikit-learn==1.4.2
 langdetect==1.0.9
-indic-nlp-library==0.0.1
+indic-nlp-library==0.92
 deep-translator==1.11.4
