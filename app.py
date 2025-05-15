@@ -1,4 +1,5 @@
 import streamlit as st
+import nltk
 import io
 from PyPDF2 import PdfReader
 from docx import Document
